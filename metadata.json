@@ -1,0 +1,5 @@
+{
+  "name": "WikiView Lifetime Calculator",
+  "description": "A clean, responsive tool to calculate and visualize the total lifetime pageviews of any English Wikipedia article.",
+  "requestFramePermissions": []
+}

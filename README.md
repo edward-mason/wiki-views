@@ -2,19 +2,22 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# WikiView Lifetime Calculator
 
-This contains everything you need to run your app locally.
+A clean, responsive tool to calculate and visualize the total lifetime pageviews of any English Wikipedia article. 
 
-View your app in AI Studio: https://ai.studio/apps/drive/1ANBE6lfA4eTqTlBSJ67RG-vTc6xC1psz
+## Features
 
-## Run Locally
+* **Lifetime Views Calculation:** Instantly fetch and sum up every pageview an English Wikipedia article has received since the Wikimedia API began tracking in July 2015.
+* **Interactive Visualization:** Beautiful, responsive area charts to display historical traffic trends.
+* **Quick Statistics:** Automatically calculates average monthly views and identifies the peak traffic month for the requested article.
+* **Modern UI:** Built with a clean interface featuring loading states, error handling, and accessible design.
 
-**Prerequisites:**  Node.js
+## Tech Stack
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+* **Framework:** React 19 with TypeScript
+* **Build Tool:** Vite
+* **Styling:** Tailwind CSS
+* **Charts:** Recharts
+* **Icons:** Lucide React
+* **Data Source:** Wikimedia Pageviews REST API
